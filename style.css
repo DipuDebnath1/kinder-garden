@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+button {
+  padding: 1.2rem 3rem;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  background-color: rgb(63, 222, 63);
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(37, 187, 37);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("images/classmates-friends.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 6rem;
+}
+header h1 {
+  font-size: 6rem;
+  color: red;
+  letter-spacing: 3px;
+}
+header h3 {
+  color: rgb(69, 67, 67);
+  padding: 1rem 0;
+}
+
+.width {
+  width: 90%;
+  margin: auto;
+}
+
+main .about {
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .about .text-content {
+  flex: 1;
+  flex-direction: column;
+  text-align: left;
+}
+main .about .text-content h3 {
+  letter-spacing: 1px;
+}
+main .about .text-content h2 {
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+main .about .text-content p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  padding-bottom: 1rem;
+  color: gray;
+}
+main .about .img {
+  flex: 1;
+  text-align: right;
+}
+main .about .img img {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .about-two {
+  flex-direction: row-reverse;
+}
+main .about-two .text-content button {
+  background-color: red;
+}
+main .about-two .img {
+  text-align: left;
+}
+main .service-section {
+  padding: 2rem 0;
+}
+main .service-section .service-catagory {
+  display: flex;
+  margin-top: -4rem;
+}
+main .service-section .service-catagory .card {
+  text-align: center;
+  color: #fff;
+  padding: 1rem 2.2rem;
+}
+main .service-section .service-catagory .card i {
+  font-size: 2rem;
+  padding: 1rem;
+  background: #fff;
+  color: #000;
+  border-radius: 50px;
+}
+main .service-section .service-catagory .card h2 {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+main .service-section .service-catagory .card p {
+  line-height: 1.5rem;
+}
+main .service-section .service-catagory .card1 {
+  background-color: rgb(37, 91, 138);
+}
+main .service-section .service-catagory .card2 {
+  background-color: rgb(36, 112, 36);
+}
+main .service-section .service-catagory .card3 {
+  background-color: rgb(173, 73, 73);
+}
+main .service-section .service-catagory .card4 {
+  background-color: rgb(144, 181, 70);
+}
+main .service-section .about-btn {
+  text-align: center;
+  margin-top: 1rem;
+}
+main .service-section .about-btn button {
+  background: red;
+}/*# sourceMappingURL=style.css.map */

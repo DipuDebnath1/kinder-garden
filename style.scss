@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+button{
+    padding: 1.2rem 3rem;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    background-color: rgb(63, 222, 63);
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: .3s all ease;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(37, 187, 37);
+    }
+    
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/classmates-friends.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 6rem;
+    h1{
+        font-size: 6rem;
+        color: red;
+        letter-spacing: 3px;
+    }
+    h3{
+        color: rgb(69, 67, 67);
+        padding:1rem 0 ;
+    }
+}
+.width{
+    width: 90%;
+    margin: auto;
+}
+// main section 
+main{
+    
+    .about{
+        padding:3rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .text-content{
+            flex: 1;
+            flex-direction: column;
+            text-align: left;
+            h3{
+                letter-spacing:1px ;
+            }
+            h2{
+                font-size: 3rem;
+                padding: 1rem 0;
+            }
+            p{
+                font-size: 1.1rem;
+                line-height: 1.7rem;
+                padding-bottom: 1rem;
+                color: gray;
+            }
+        }
+        .img{
+            flex: 1;
+            text-align: right;
+            img{
+                height: 25rem;
+                width: 25rem;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+    .about-two{
+        flex-direction: row-reverse;
+        .text-content{
+            button{
+                background-color: red;
+            }
+        }
+        .img{
+            text-align: left;
+        }
+    }
+    .service-section{
+       padding:2rem 0;;
+       .service-catagory{
+        display: flex;
+        margin-top:-4rem ;
+        .card{
+            text-align: center;
+            color: #fff;
+            padding: 1rem 2.2rem;
+            i{
+                font-size: 2rem;
+                padding: 1rem;
+                background:#fff;
+                color: #000;
+                border-radius: 50px;
+            }
+            h2{
+                font-size: 1.5rem;
+                padding: 1rem 0;
+            }
+            p{
+                line-height: 1.5rem;
+
+            }
+        }
+        .card1{
+          background-color: rgb(37, 91, 138);  
+        }
+        .card2{
+          background-color: rgb(36, 112, 36);  
+        }
+        .card3{
+          background-color: rgb(173, 73, 73);  
+        }
+        .card4{
+          background-color: rgb(144, 181, 70);  
+        }
+       
+       }
+        .about-btn{
+            text-align: center;
+            margin-top: 1rem;
+            button{
+                background: red;
+            }
+        }
+    }
+}
